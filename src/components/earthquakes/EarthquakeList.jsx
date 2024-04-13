@@ -1,8 +1,8 @@
 import { Fragment } from "react"
 import CardInfo from "../ui/CardInfo"
+import { Pagination } from '../ui/Pagination.jsx'
 
 export const EarthquakeList= ({ earthquakes = [], total = 0, perPage = 10 }) => {
-  console.log(total)
   return (
     <>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
@@ -22,6 +22,7 @@ export const EarthquakeList= ({ earthquakes = [], total = 0, perPage = 10 }) => 
           </Fragment>
         ))}
       </div>
+      <Pagination numPages={Math.ceil(total/perPage)} paginationLabel="page" className="mt-4" />
     </>
   )
 }

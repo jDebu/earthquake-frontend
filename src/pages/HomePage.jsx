@@ -6,7 +6,6 @@ import { EarthquakeList } from '../components/earthquakes/EarthquakeList.jsx'
 
 export const HomePage = () => {
   const { onFilter, initialFilters, results } = useFilters('earthquakes.json', {})
-  console.log(results)
   const customOnFilter = values => {
     onFilter({ ...values })
   }

@@ -1,5 +1,6 @@
 import { Container } from '../Container.jsx'
 import { TravelExplore } from '@mui/icons-material'
+import { Menu } from './Menu.jsx'
 
 export const Header = () => {
   return (
@@ -10,6 +11,7 @@ export const Header = () => {
         </a>
         <div className="md:bg-white md:w-px mx-6 h-6 hidden md:block"></div>
         <p className="text-white hidden md:block text-md leading-4">Seismic Data</p>
+        <Menu />
       </Container>
     </header>
 )}
