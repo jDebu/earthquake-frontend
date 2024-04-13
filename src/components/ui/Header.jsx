@@ -9,7 +9,7 @@ export const Header = () => {
           <TravelExplore style={{ color: 'white' }}/>
         </a>
         <div className="md:bg-white md:w-px mx-6 h-6 hidden md:block"></div>
-        <p className="text-white hidden md:block text-md leading-4">Datos Sísmicos</p>
+        <p className="text-white hidden md:block text-md leading-4">Seismic Data</p>
       </Container>
     </header>
 )}
