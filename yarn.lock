@@ -5811,10 +5811,10 @@ randombytes@^2.1.0:
   dependencies:
     safe-buffer "^5.1.0"
 
-react-comments-section@2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/react-comments-section/-/react-comments-section-2.0.10.tgz#1042a02da4b24405b7a133dbecc43a7b79cb2220"
-  integrity sha512-N+FBrtjNNLOJWD4NIvUQkghAr+7lOP6PYYRJNFla4LnSN9HetBXd/skoRiC5lbUXC6to7fPgwW0YBHdtPhWoCw==
+react-comments-sectionv2@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-comments-sectionv2/-/react-comments-sectionv2-0.0.1.tgz#50038da0998bd6e7c55a9acc1f0d822388f76f10"
+  integrity sha512-BbJ3wLGBQR5Tq5KqUSXucXCSsNwAFFgM8ahvywLhv1T+hhogaETT6/0BBvnn7cq7Jlh64tY0yqFC9vT7/ssn6Q==
   dependencies:
     "@emotion/react" "^11.9.0"
     "@szhsin/react-menu" "^3.0.1"
@@ -5828,6 +5828,7 @@ react-comments-section@2.0.10:
     react-draft-wysiwyg "^1.14.7"
     react-responsive-modal "^6.2.0"
     sass "^1.51.0"
+    uuid "9.0.0"
 
 react-dom@^18.2.0:
   version "18.2.0"

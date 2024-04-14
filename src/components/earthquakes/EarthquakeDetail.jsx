@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 
-import { CommentSection } from "react-comments-section"
-import "react-comments-section/dist/index.css"
+import { CommentSection } from "react-comments-sectionv2"
+import "react-comments-sectionv2/dist/index.css"
 import { FORM_ERROR } from "final-form"
 
 import { request } from "../../api/apiCore.jsx"
