@@ -25,9 +25,6 @@ export const EarthquakeDetail= () => {
       .then((data) => setEarthquake(data))
       .catch((error) => console.error('Error fetching earthquake:', error))
   }, [])
-
-  console.log(comments)
-  console.log(earthquake)
   
   const storedUserData = JSON.parse(localStorage.getItem('userData'))
 
@@ -47,9 +44,7 @@ export const EarthquakeDetail= () => {
         body: JSON.stringify(values),
       }
       const response = await request({url: '/comments.json', ...options})
-      console.log('***RESPONSE***')
-      console.log(response)
-      if (!response?.token) {
+      if (!response?.id) {
         return { [FORM_ERROR]: response.error}
       }
     } catch (error) {
